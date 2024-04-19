@@ -4,7 +4,7 @@
 using namespace std;
 
 ItemToPurchase::ItemToPurchase(){
-
+    
     itemName = "none";
     itemPrice = 0;
     itemQuanity = 0;
