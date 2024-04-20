@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-ItemToPurcahse item1, item2;
+ ItemToPurchase item1, item2;
 int price, quantity;
 string name;
   
@@ -13,17 +13,18 @@ cout << "Item 1" << endl;
 cout << "Enter the item name:" << endl;
 getline(cin, name);
 item1.SetName(name);
-cout << name << endl;
+//cout << name << endl;
 
 cout << "Enter the item price:" << endl;
 cin >> price;
 item1.SetPrice(price);
-cout << price << endl;
+//cout << price << endl;
 
-cout << "Enter the item quantity: ";
+cout << "Enter the item quantity:" << endl;
 cin >> quantity;
 item1.SetQuantity(quantity);
-cout << quantity << endl;
+//cout << quantity << endl;
+cout << endl;
 
 cin.ignore();
 
@@ -31,17 +32,19 @@ cout << "Item 2" << endl;
 cout << "Enter the item name:" << endl;
 getline(cin, name);
 item1.SetName(name);
-cout << name << endl;
+//cout << name << endl;
 
 cout << "Enter the item price:" << endl;
 cin >> price;
 item1.SetPrice(price);
-cout << price << endl;
+//cout << price << endl;
 
-cout << "Enter the item quantity: ";
+cout << "Enter the item quantity:" << endl;
 cin >> quantity;
 item1.SetQuantity(quantity);
-cout << quantity << endl;
+//cout << quantity << endl;
+
+cout << endl;
 
 
 
