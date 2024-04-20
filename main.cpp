@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    ItemToPurchase item1, item2;
+	ItemToPurchase item1, item2;
 	int price, quantity;
 	string name;
 	
@@ -12,7 +12,7 @@ int main(){
 	cout << "Enter the item name:" << endl;
 	getline(cin, name);
 	item1.SetName(name);
- 
+	
 	cout << "Enter the item price:" << endl;
 	cin >> price;
 	item1.SetPrice(price);
@@ -39,6 +39,6 @@ int main(){
 	
 	cout << endl;
 	
-    return 0;
+	return 0;
   
 }
