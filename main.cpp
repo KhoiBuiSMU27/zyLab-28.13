@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-	ItemToPurchase item1, item2;
+    ItemToPurchase item1, item2;
 	int price, quantity;
 	string name;
 	
@@ -39,6 +39,6 @@ int main(){
 	
 	cout << endl;
 	
-  return 0;
+    return 0;
   
 }
